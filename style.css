@@ -1,0 +1,12 @@
+body {
+    background-color: skyblue;
+}
+h1 {
+    color: red;
+}
+h2, h3, h4, h5 {
+    color: blue;
+}
+p {
+    font-size: 20px;
+}
