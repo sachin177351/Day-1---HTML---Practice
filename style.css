@@ -1,12 +1,24 @@
-body {
-    background-color: skyblue;
-}
-h1 {
+.page-title {
+    text-align: center;
     color: red;
+    font-weight: bold;
 }
-h2, h3, h4, h5 {
+/* Movie card container  */
+.movie-card {
+    border: 2px solid #555;
+    padding: 8px;
+    margin: 15px;
+    background-color: #f0f0f0;
+    text-align: center;
+    width: normal;
+    
+}
+/* Movie Name */
+.movie-name {
     color: blue;
+    font-weight: bold;
 }
-p {
-    font-size: 20px;
+/* Movie Desk  */
+.movie-desc {
+    color: #333;
 }
