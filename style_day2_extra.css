@@ -3,16 +3,25 @@ body{
 }
 h1 {
     color: red;
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+
 }
+.main {
+    color: purple;
+    font-weight: 800;
+
+}
+.sub {
+    color: green;
+}
+
 h2 {
     color: blue;
-    text-transform: uppercase;
-    font-family: fantasy;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
-    color: darkgreen;
+    color: black;
     font-size: 18px;
     line-height: 1.5;
 }
