@@ -1,15 +1,31 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f4f6f8;
 }
-.name {
+h1 {
+    color: #222;
     text-align: center;
+    margin-bottom: 20px;
 }
-.role {
-    text-align: center;
-    color: gray;
+h2 {
+    color: #0057ff;
+    margin-top: 20px;
 }
-.card {
-    border: 1px solid black;
-    padding: 10px;
-    margin: 15px;
+p, li {
+    font-size: 16px;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+ul {
+    padding-left: 20px;
 }
