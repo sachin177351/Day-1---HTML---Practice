@@ -1,24 +1,15 @@
-.page-title {
-    text-align: center;
-    color: red;
-    font-weight: bold;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-/* Movie card container  */
-.movie-card {
-    border: 2px solid #555;
-    padding: 8px;
+.name {
+    text-align: center;
+}
+.role {
+    text-align: center;
+    color: gray;
+}
+.card {
+    border: 1px solid black;
+    padding: 10px;
     margin: 15px;
-    background-color: #f0f0f0;
-    text-align: center;
-    width: normal;
-    
-}
-/* Movie Name */
-.movie-name {
-    color: blue;
-    font-weight: bold;
-}
-/* Movie Desk  */
-.movie-desc {
-    color: #333;
 }
