@@ -6,7 +6,7 @@ body {
 h1 {
     color: #222;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 h2 {
     color: #0057ff;
@@ -14,18 +14,29 @@ h2 {
 }
 p, li {
     font-size: 16px;
+    color: #555;
+    line-height: 1.6;
 }
 .container {
     width: 70%;
-    margin: 0 auto;
+    margin: 40px  auto;
     max-width: 800px;
 }
 .section {
     background: white;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-radius: 6px;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.section h2  {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
 }
 ul {
     padding-left: 20px;
+}
+ul li {
+    margin-bottom: 6px;
 }
