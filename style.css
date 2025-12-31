@@ -1,3 +1,4 @@
+/* GLOBAL */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f6f8;
@@ -5,6 +6,35 @@ body {
   padding: 0;
 }
 
+/* NAVBAR */
+.navbar {
+  background-color: gray;
+  padding: 12px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.nav-list a:hover {
+  color: #00adb5;
+}
+
+/* CONTAINER */
 .container {
   width: 70%;
   max-width: 900px;
@@ -12,11 +42,13 @@ body {
   padding: 10px;
 }
 
+/* HERO */
 .hero {
   text-align: center;
   margin-bottom: 40px;
 }
-.hero {
+
+.hero p {
   font-size: 18px;
   color: #666;
 }
@@ -25,7 +57,7 @@ body {
 h1 {
   text-align: center;
   color: #222;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 /* SECTIONS */
@@ -35,6 +67,11 @@ h1 {
   margin-bottom: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: scale(1.01);
 }
 
 /* SECTION TITLES */
@@ -53,12 +90,13 @@ p, li {
   line-height: 1.6;
 }
 
-ul {
+/* SKILLS LIST ONLY */
+.section ul {
   list-style: none;
   padding-left: 0;
 }
 
-ul li::before {
+.section ul li::before {
   content: "✔ ";
   color: #0057ff;
 }
@@ -76,14 +114,29 @@ ul li::before {
   margin-bottom: 5px;
   color: #222;
 }
-.section:hover {
-  transform: scale(1.01);
-  transition: 0.3s;
-}
 
+/* RESPONSIVE */
 @media (max-width: 600px) {
   .container {
     width: 90%;
-    background: #f4f4f4;
   }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* FOOTER */
+.footer {
+  background-color: #222;
+  color: #bbb;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
 }
